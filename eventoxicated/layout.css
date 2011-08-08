@@ -1,0 +1,337 @@
+/* Makeshift CSS Reset */  
+{  
+    margin: 0;  
+    padding: 0;  
+} 
+
+/* Tell the browser to render HTML 5 elements as block */  
+header, footer, aside, nav, article {  
+    display: block;  
+} 
+
+body {  
+   	background: url('/images/new/body-bg.png') repeat #D3D6D9;
+	color: #626262;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: 'Helvetica Neue', Helvetica, Arial Geneva, sans-serif;
+	margin: 0 auto;
+	width: 1000px; /* Replace the xxxx with the the width of your site (eg 800px)*/
+	text-align:left;
+	line-height: 1;
+	font-size: 100%;
+	
+}  
+h2 {  
+	position:absolute;
+	left:320px;
+	top: 20px;
+	z-index:1;
+	
+    font-size: 23px;  
+    line-height: 12px;  
+    padding: 22px 10; 
+	color: #636C75;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, .5);
+ 	-webkit-font-smoothing: antialiased;
+	font-weight: normal;
+
+	
+	-webkit-margin-before: 0.83em;
+	-webkit-margin-after: 0.83em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+
+  
+div.date {
+	float: left;
+	width: 16px;
+	height: 16px;
+	padding: 0;
+	margin: 5px 3px 0;
+	display: block;
+}
+
+h3 {  
+    font-size: 18px;  
+    line-height: 22px;  
+    padding: 11px 0;  
+}  
+  
+#modal #main {
+
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .25);
+-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .25);
+box-shadow: 0 1px 2px rgba(0, 0, 0, .25);
+margin: 32px 0 0 0;
+width: 350;
+padding-top: 1px;
+
+padding-bottom: 20px;
+margin-left:300px;
+margin-right:300px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+p {  
+    padding-bottom: 22px;  
+	font-size:15px;
+}  
+#headercell{
+	display: table-cell;	
+	width: 850px;
+}
+#logoutcell{
+	display: table-cell;
+	width: 30px;	
+}
+#mainContent {  
+	display: table-cell;  
+	width: 620px;  
+	padding-right: 22px;  
+	margin-top: 66px;  
+    padding: 44px;  
+    background: #467612 url("images/sectionbg.jpg") repeat-x;  
+    background-size: 100%;  
+    border-radius: 22px;  
+	margin-left: 10%;
+		margin-right: 10%;
+}  
+.mainSection img{
+	-moz-box-shadow: inset -5px -5px #888;
+	-webkit-box-shadow: inset -5px -5px #888;
+	box-shadow: inset -5px -5px #888;
+}
+#tabContent {  
+	display: table-cell;  
+	width: 200px;  
+	-webkit-gradient
+           (linear, left top, left bottom, from(#ccc), to(#fff));
+}  
+ul.tabs {
+	list-style: none;
+    display: block;
+    position: relative;
+    /*top: 100px;
+    left: 100px;
+    padding: 60px 0 60px 0;*/
+    background: url(images/shad2.png) no-repeat;
+    -webkit-background-size: 50% 100		q;
+}
+ul.tabs li a{
+	-moz-border-radius-bottomleft: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+    -webkit-transition: all 0.3s ease-out;
+    background: #cbcbcb url(border.png) no-repeat;
+    color: #174867;
+    padding: 7px 15px 7px 15px;
+    -webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;	
+    width: 100px;
+    display: block;
+    text-decoration: none;
+    -webkit-box-shadow: 2px 2px 4px #888;
+}
+ul.tabs li a:hover {
+    background: #ebebeb url(border.png) no-repeat;
+    color: #67a5cd;
+    padding: 7px 15px 7px 30px;
+}
+
+.forms {
+	margin: 0 auto;
+	position: relative;
+	width: 500px;
+}
+form.forms{
+	-moz-border-radius-bottomleft: 20px;
+	-moz-border-radius-bottomright: 20px;
+	-moz-border-radius-topleft: 20px;
+	-moz-border-radius-topright: 20px;
+	-moz-box-shadow: 2px 2px 10px #ccc;
+	-webkit-border-bottom-left-radius: 20px;
+	-webkit-border-bottom-right-radius: 20px;
+	-webkit-border-top-left-radius: 20px;
+	-webkit-border-top-right-radius: 20px;
+	-webkit-box-shadow: 2px 2px 10px #ccc;
+	background-color: #fff;
+	margin: 25px auto 0;
+	padding: 25px 10px;
+	text-align: left;
+	width: 500px;
+	font-size: 15px;
+}
+
+form.formslogin{
+	-moz-border-radius-bottomleft: 20px;
+	-moz-border-radius-bottomright: 20px;
+	-moz-border-radius-topleft: 20px;
+	-moz-border-radius-topright: 20px;
+	-moz-box-shadow: 2px 2px 10px #ccc;
+	-webkit-border-bottom-left-radius: 20px;
+	-webkit-border-bottom-right-radius: 20px;
+	-webkit-border-top-left-radius: 20px;
+	-webkit-border-top-right-radius: 20px;
+	-webkit-box-shadow: 2px 2px 10px #ccc;
+	background-color: #fff;
+	margin: 25px auto 0;
+	padding: 25px 10px;
+	text-align: left;
+	width: 380px;
+}
+form #creatEventform label {
+	display: block;
+	font-size: 1.65em;
+	font-weight: bold;
+	letter-spacing: -0.025em;
+	margin: 0 0 5px 15px;
+	text-align: left;
+ 
+}
+.forms input#formInput, textarea#formInput {
+	-moz-border-radius-bottomleft: 20px;
+	-moz-border-radius-bottomright: 20px;
+	-moz-border-radius-topleft: 20px;
+	-moz-border-radius-topright: 20px;
+	-webkit-border-bottom-left-radius: 20px;
+	-webkit-border-bottom-right-radius: 20px;
+	-webkit-border-top-left-radius: 20px;
+	-webkit-border-top-right-radius: 20px;
+	background-color: #eaeaea;
+	background: -moz-linear-gradient(top, #ffffff, #eaeaea);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #ffffff), color-stop(1.0, #eaeaea));
+	border: 1px solid #cacaca;
+	color: #444;
+	font-size: 1em;
+	margin: 0 0 25px;
+	padding: 8px 10px;
+	width: 400px;
+}
+.form input#submit {
+	-moz-border-radius-bottomleft: 32px;
+	-moz-border-radius-bottomright: 32px;
+	-moz-border-radius-topleft: 32px;
+	-moz-border-radius-topright: 32px;
+	-webkit-border-bottom-left-radius: 32px;
+	-webkit-border-bottom-right-radius: 32px;
+	-webkit-border-top-left-radius: 32px;
+	-webkit-border-top-right-radius: 32px;
+	background-color: #dedede;
+	background: -moz-linear-gradient(top, #ffffff, #eaeaea);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #ffffff), color-stop(1.0, #dedede));
+	border: 1px solid #dedede;
+	color: #484848;
+	font-size: 1.65em;
+	font-weight: bold;
+	padding: 10px 15px;
+}
+
+
+article, aside, dialog, figure, footer, header, hgroup, nav, section {
+display: block;
+}
+
+#footer {
+color: #636C75;
+-webkit-font-smoothing: antialiased;
+padding: 24px 0;
+text-shadow: 0 1px 1px rgba(255, 255, 255, .5);
+
+margin-left:250px;
+margin-right:auto;
+
+}
+
+#modal #footer {
+padding: 12px 0;
+}
+
+#modal #footer nav ul li {
+float: left;
+margin: 0 12px 0 0;
+list-style: none;
+}
+
+a:link, a:visited {
+color: #477DAF;
+font-weight: bold;
+text-decoration: none;
+font-size: 13px;
+}
+
+#footer nav ul li a:link, #footer nav ul li a:visited {
+color: #636C75;
+font-weight: normal;
+}
+
+a:-webkit-any-link {
+color: -webkit-link;
+text-decoration: underline;
+cursor: auto;
+}
+
+input[type="text"], input[type="password"], textarea {
+border: 1px solid #CCC;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .15) inset;
+-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .15) inset;
+box-shadow: 0 1px 2px rgba(0, 0, 0, .15) inset;
+color: #424242;
+font-family: Verdana, 'Helvetica Neue', Helvetica, Arial, Geneva, sans-serif;
+font-size: 13px;
+outline: none;
+padding: 6px;
+display: block;
+margin: 4px 0 0 0;
+width: 360px;
+-moz-transition: border .2s linear, box-shadow .2s linear;
+-webkit-transition: border .2s linear, -webkit-box-shadow .2s linear;
+}
+
+input:-webkit-autofill {
+background-color: #FAFFBD;
+background-image: none;
+color: black;
+}
+
+
+
+a:link, a:visited {
+color: #477DAF;
+font-weight: bold;
+text-decoration: none;
+}
+
+a.button:link, a.button:visited, button, input[type="submit"] {
+background: #EAEAEA;
+background: -moz-linear-gradient(top, #EFEFEF, #D8D8D8) #D8D8D8;
+background: -webkit-gradient(linear, left top, left bottom, from(#EFEFEF), to(#D8D8D8)) #D8D8D8;
+background: linear-gradient(top, #EFEFEF, #D8D8D8) #D8D8D8;
+border: 1px solid #ABABAB;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .1), 0 1px 1px rgba(255, 255, 255, .8) inset;
+-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .1), 0 1px 1px rgba(255, 255, 255, .8) inset;
+box-shadow: 0 1px 2px rgba(0, 0, 0, .1), 0 1px 1px rgba(255, 255, 255, .8) inset;
+color: #707070;
+font-family: 'Helvetica Neue', Helvetica, Arial, Geneva, sans-serif;
+font-size: 12px;
+-webkit-font-smoothing: antialiased;
+font-weight: bold;
+margin: 0;
+outline: none;
+padding: 5px 10px;
+text-align: center;
+text-shadow: 0 1px 1px rgba(255, 255, 255, .5);
+}
+
